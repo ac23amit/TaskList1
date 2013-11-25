@@ -16,14 +16,15 @@
         android:debuggable="true">
         <activity
             android:name=".TaskListActivity"
-            android:label="TaskList" >
+            android:label="Task List" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CreateTaskActivity" android:label="create_task"/>
+        <activity android:name=".CreateTaskActivity"
+                  android:label="create_task"/>
     </application>
 
 </manifest>

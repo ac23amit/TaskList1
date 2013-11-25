@@ -9,7 +9,7 @@
     <Button android:id="@+id/add_Btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Task" />
+        android:text="@string/add_Btn"/>
 
     <ListView android:layout_height="wrap_content"
         android:layout_width="fill_parent"
